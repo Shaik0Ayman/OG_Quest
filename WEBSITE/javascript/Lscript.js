@@ -58,10 +58,10 @@ signInForm.addEventListener('submit', function(event) {
     });
 
     if (user) {
-        console.log('User found:', user);
+        alert('User found:', user);
         // Navigate to index.html
         window.location.href = '../html/index2.html';
     } else {
-        console.log('No user found with the provided email and password');
+        alert('No user found with the provided email and password');
     }
 });

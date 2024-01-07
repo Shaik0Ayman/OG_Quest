@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+  
 * {
     margin: 0;
     padding: 0;
@@ -7,17 +9,17 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #ca98ff;
+    background-color: rgb(170, 161, 170);
 }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ecf0f1;
+    background-color: rgb(84, 3, 114);
 }
 .content {
-    background-color: #fff;
+    background-color: white;
     border-radius: 15px;
     width: 960px;
     height: 80%;
@@ -28,7 +30,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #9846c1;
+    background-color: rgb(124, 8, 159);
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
